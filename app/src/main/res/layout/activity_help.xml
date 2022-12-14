@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A8A8A">
+
+    <Button
+        android:id="@+id/helpCloseBtn"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/bangers"
+        android:text="Close window"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <TextView
+        android:id="@+id/helpTitle"
+        android:layout_width="157dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="60dp"
+        android:background="#8A8A8A"
+        android:fontFamily="@font/bangers"
+        android:text="Help Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="306dp"
+        android:layout_height="333dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpTitle"
+        app:layout_constraintVertical_bias="0.1">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Game"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rock, Paper, Scissors (Ro-Sham-Bo) is played with three possible hand signals that represent a rock, paper, and scissors."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The match up that wins against each other is:ock beats ScissorsScissors beats Paper, Paper beats Rock, and everything else ties."
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preference Menu"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The preference menu is accessible from the main menu and it will allow the user to set their own name, and to select how many rounds a game will last up to a max of 10 rounds."
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

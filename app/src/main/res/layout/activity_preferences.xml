@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A8A8A">
+
+    <TextView
+        android:id="@+id/preferenceTitle"
+        android:layout_width="286dp"
+        android:layout_height="91dp"
+        android:background="#8A8A8A"
+        android:fontFamily="@font/bangers"
+        android:text="Preferences Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="43sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="309dp"
+        android:layout_height="397dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preferenceTitle"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:text="Username:"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/usernameEntry"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:ems="10"
+            android:fontFamily="@font/bangers"
+            android:inputType="textPersonName"
+            android:text="Player"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:id="@+id/textRound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:text="Number of rounds:"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/maxRoundText"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <SeekBar
+            android:id="@+id/roundBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#00FFFFFF"
+            android:max="3" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/bangers"
+        android:text="Save and Exit"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.223" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

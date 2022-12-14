@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/font_bangers.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/font/bangers.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/layout_activity_help.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/layout/activity_help.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/drawable_scissorimage.png.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/drawable/scissorimage.png"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/layout_activity_preferences.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/layout/activity_preferences.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/layout_activity_second.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/layout/activity_second.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/drawable_paperimage.png.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/drawable/paperimage.png"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/drawable_rpsimage.png.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/drawable/rpsimage.png"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.RockPaperScissors.app-pngs-21:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/layout_activity_score.xml.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/layout/activity_score.xml"
+    },
+    {
+        "merged": "com.example.RockPaperScissors.app-merged_res-26:/drawable_rockimage.png.flat",
+        "source": "com.example.RockPaperScissors.app-main-28:/drawable/rockimage.png"
+    }
+]
